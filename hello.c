@@ -2,7 +2,10 @@
 #include <studio.h>
 
 int main(void){
-	printf("Hola Mundo");
-	printf("Hola de nuevo mundo");
+	decirHola("Alex");
 	return 0;
+}
+
+void decirHola(char* nombre) {
+	printf("Hola %s, ¿como estas?", nombre);
 }
